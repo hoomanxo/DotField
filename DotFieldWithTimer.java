@@ -47,7 +47,7 @@ public class DotFieldWithTimer extends DotField{
 
     }
    public static void main(String[] args) {
-        final JFrame f = new JFrame("Particle Field With Timer");
+        final JFrame f = new JFrame("Dot Field With Timer");
         final DotFieldWithTimer dft = new DotFieldWithTimer();
         f.setLayout(new FlowLayout());
         f.add(dft);
